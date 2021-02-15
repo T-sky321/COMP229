@@ -1,0 +1,39 @@
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+  
+
+  <!-- Main Content -->
+  <main class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">Welcome to the <%= title %> page</h1>
+      <body>
+        <h3>
+          We offer these following services.
+        </h3>
+        <p>
+          <li>Android Application</li>
+          <li>Web Application</li>
+          <li>Windows Application</li>
+          <li>Information system consulting</li>
+        </p>
+        <h3>Samples:</h3>
+        <p>
+          <img src=<%=samplePic1%> height="500">  
+        </p>
+        <p>Web Spider</p>
+        <p><img src=<%=samplePic2%> width="500" height="500"></p>
+        <p>A new PC built by us</p>
+        <p><img src=<%=samplePic3%> ></p>
+        <p>Benchmark Test Result</p>
+        <p>
+          We also can offer a litte bit web spider support for your service.
+        </p>
+        <p>In addition, we can help you to build your own PC, and we can offer the benchmark test for you</p>
+      </body>
+    </div>
+  </main>
+  
+<%- include partials/bottom_nav.ejs %>  
+
+<%- include partials/footer.ejs %>

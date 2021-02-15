@@ -1,0 +1,39 @@
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+  
+
+  <!-- Main Content -->
+  <main class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">Welcome to the <%= title %> page</h1>
+      <body>
+        <h3>
+          Project 1
+        </h3>
+        <p>
+          <img src=<%=shortcut1%>>
+        </p>
+        <p><%=description1%></p>
+        <h3>
+          project 2
+        </h3>
+        <p>
+          <img src=<%=shortcut2%>>
+        </p>
+        <p><img src=<%=shortcut3%>></p>
+        <p><%=description2%></p>
+        <h3>
+          project 3
+        </h3>
+        <p>
+          <img src=<%=shortcut4%>>
+        </p>
+        <p><%=description3%></p>
+      </body>
+    </div>
+  </main>
+  
+<%- include partials/bottom_nav.ejs %>  
+
+<%- include partials/footer.ejs %>

@@ -1,0 +1,38 @@
+{
+  "name": "personal-portfolio",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./server.js"
+  },
+  "engines": {
+    "node": "^12.18.3",
+    "npm": "^6.0.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "bootstrap": "^4.5.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "^4.16.4",
+    "http-errors": "~1.6.3",
+    "jquery": "^3.5.1",
+    "morgan": "~1.9.1",
+    "popper.js": "^1.16.1"
+  },
+  "description": "Assignment 1 by Changhao",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/T-sky321/COMP229.git"
+  },
+  
+  "author": "Changhao Tian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/T-sky321/COMP229/issues"
+  },
+  "homepage": "https://github.com/T-sky321/COMP229#readme"
+}

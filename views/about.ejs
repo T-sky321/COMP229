@@ -1,0 +1,31 @@
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+  
+
+  <!-- Main Content -->
+  <main class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">Welcome to the <%= title %> page</h1>
+      <body>
+        
+        
+        <p>
+          <img src=<%=photo%> width="500" height="500">
+          <!-- <area shape="circle" coords="x1,y1,r" href=/public/Assets/images/myphoto.jpg> -->
+        </p>
+        <p>
+          I'm Changhao (Collin) Tian.
+My previous program is Computer Science and Technology. And my current program is software engineering technology at Centennial College. 
+        </p>
+        <p>
+          <a href=<%=resume%>>Click here to check my resume</a>
+        </p>
+      </body>
+      
+    </div>
+  </main>
+  
+<%- include partials/bottom_nav.ejs %>  
+
+<%- include partials/footer.ejs %>
